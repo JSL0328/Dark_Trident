@@ -21,7 +21,7 @@ from scipy.ndimage import rotate
 
 # MPID scripts 
 from mpid_data import mpid_data_binary
-from mpid_net import mpid_net_binary, mpid_func
+from mpid_net import mpid_net_binary, mpid_func_binary
 
 plt.ioff()
 torch.cuda.is_available()
